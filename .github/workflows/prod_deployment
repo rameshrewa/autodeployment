@@ -3,7 +3,7 @@ name: prod_deployment
 on:
   push:
     branches:
-    - main
+    - staging
 
 jobs:
   qabuild:
